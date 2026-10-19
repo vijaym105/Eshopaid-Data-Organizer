@@ -1,0 +1,24 @@
+HELP.md
+target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### IDE ###
+.idea/
+*.iws
+*.iml
+*.ipr
+.vscode/
+
+### Runtime output ###
+data/*.json
+logs/*.log
+
+### Secrets / local config ###
+.env
+application-local.properties
+*.log
+logs/
+Processed-Data/
+data/

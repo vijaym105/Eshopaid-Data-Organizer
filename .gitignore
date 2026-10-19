@@ -1,0 +1,23 @@
+# Maven build files
+target/
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+
+# Secrets
+.env
+.env.*
+application-local.properties
+secrets.properties
+
+# Tokens and credentials
+token.json
+**/token/
+
+# Logs and generated business data
+*.log
+logs/
+Processed-Data/
+data/
